@@ -19,9 +19,9 @@ var connection = mysql.createConnection({
     // password : 'root123456',
     // database : 'revelsoft_havana'
     host     : 'us-cdbr-iron-east-02.cleardb.net',
-    user     : 'b6814cad72ad4f',
-    password : '38813f22',
-    database : 'heroku_e3b6fa7b41c3885'
+    user     : 'b0f4b625fa0364',
+    password : 'e85daf56',
+    database : 'heroku_b50ed251f6062c7'
 });
 
 connection.connect(function(err){
