@@ -7,11 +7,7 @@ var cors = require('cors');
 app.use(bodyParser.json());
 app.use(cors());
 
-// var port = process.env.PORT || 3001;
-var port = process.env.PORT || 3001 
-app.listen(port, () => {
-  console.log('API Start server at port: ', port)
-})
+var port = process.env.PORT || 3001;
 
 app.all('*', function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
@@ -114,7 +110,10 @@ appRoutesFile(app); //register the route 13
 var appRoutesAbout = require('./routes/appRoutesAbout');
 appRoutesAbout(app); //register the route 14
 
-var appRoutesPing = require('./routes/appRoutesPing');
-appRoutesPing(app); //register the route 14
+var appRoutesD = require('./routes/appRoutesD');
+appRoutesD(app); //register the route 15
+
+
+
 
 

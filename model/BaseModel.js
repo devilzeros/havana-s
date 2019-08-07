@@ -14,14 +14,14 @@
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
-    // host     : 'localhost',
-    // user     : 'root',
-    // password : 'root123456',
-    // database : 'revelsoft_havana'
-    host     : 'us-cdbr-iron-east-02.cleardb.net',
-    user     : 'b0f4b625fa0364',
-    password : 'e85daf56',
-    database : 'heroku_b50ed251f6062c7'
+  // host     : 'localhost',
+  // user     : 'root',
+  // password : 'root123456',
+  // database : 'revelsoft_havana'
+  host     : 'us-cdbr-iron-east-02.cleardb.net',
+  user     : 'b0f4b625fa0364',
+  password : 'e85daf56',
+  database : 'heroku_b50ed251f6062c7'
 });
 
 connection.connect(function(err){
