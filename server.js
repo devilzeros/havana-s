@@ -110,8 +110,8 @@ appRoutesFile(app); //register the route 13
 var appRoutesAbout = require('./routes/appRoutesAbout');
 appRoutesAbout(app); //register the route 14
 
-var appRoutesD = require('./routes/appRoutesD');
-appRoutesD(app); //register the route 15
+// var appRoutesD = require('./routes/appRoutesD');
+// appRoutesD(app); //register the route 15
 
 
 
